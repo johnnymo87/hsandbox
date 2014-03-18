@@ -251,6 +251,7 @@ class NodeHacking(Hacking):
 class RubyHacking(Hacking):
     filename = "sandbox.rb"
     command = "ruby<version> sandbox.rb"
+	template = ("#!/usr/bin/env ruby-1.9.3-p545@hsandbox\n")
 
 class LuaHacking(Hacking):
     filename = "sandbox.lua"
