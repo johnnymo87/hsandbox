@@ -120,7 +120,7 @@ class GoHacking(Hacking):
 
     template = ("package main\n\n"
                 "import (\n)\n\n"
-                "func main() {\n<cursor>\n}\n")
+                "func main() {\n\t<cursor>\n}\n")
 
     def __init__(self):
         self._prefix = ""
